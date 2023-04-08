@@ -19,9 +19,6 @@ a:link, a:visited {
 }
 
 nav {
-    position: fixed;
-    top: 0;
-    height: 80px;
     background-color: white;
     line-height: 85px;
 }
@@ -49,7 +46,6 @@ nav::after{
 .nav-btn {
     list-style-type: none;
     margin: 0;
-
 }
  
 
@@ -63,15 +59,14 @@ ul.nav-btn > li {
 
 
 .hd {
-    position: absolute;
-    top: 80px;
+    position: relative;
     height: 300px;
     text-align: right;
     background-color: rgb(255, 252, 249);
 }
 
 .box {
-    position: absolute;
+    position: relative;
     width: auto;
     height: 250px;
     border-radius: 70%;
@@ -117,7 +112,7 @@ ul.nav-btn > li {
 }
 
 .hd .container {
-    position: absolute;
+    position: relative;
     color: black;
 }
 
@@ -130,7 +125,7 @@ ul.nav-btn > li {
 
 .sec article {
     float: left;
-    width: 300px;
+    width: 700px;
     margin-right: 30px;
 }
 
